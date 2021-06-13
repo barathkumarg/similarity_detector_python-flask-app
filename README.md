@@ -50,7 +50,11 @@ Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 4.profile, requirements are the files help to deploy this app in cloud [heroku] it ia paas service helps to deploye the web apps
 
-5.
+5. profile file tells the endpoint to be specified for application and requirements tells the neccessary packages to be installed to run web app.
+
+6.This web application in cloud: https://similaritydectecor12.herokuapp.com/    
+
+you can click and can use anywhere you wanted without python ide as it was published in cloud
  
 
 
