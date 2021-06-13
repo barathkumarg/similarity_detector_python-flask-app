@@ -44,6 +44,13 @@ Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
   i) you can copy the text and paste in text box to find the similarities between them
   
   ii) You can upload the txt and docx files and can able to find the similarities between them
+  
+  
+3..txt files are the sample files you can use it for demo
 
+4.profile, requirements are the files help to deploy this app in cloud [heroku] it ia paas service helps to deploye the web apps
+
+5.
+ 
 
 
