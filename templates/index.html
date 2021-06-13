@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+<body>
+<center><h1>Similarity Detector via Text</h1></center>
+<form action="{{url_for('home')}}" method = "POST">
+<p><strong>Enter first paragraph</strong></p>
+
+
+  <textarea name="text1" placeholder="Enter text " required></textarea><br><br>
+
+  <p><strong>Enter first paragraph</strong></p>
+
+
+  <textarea name="text2" placeholder="Enter text " required></textarea><br><br><br>
+
+<center><button class="button">Check Similarity</button>
+<br><br>
+  <h2>{{sim}}</h2>  </center>
+</form>
+
+<br><br><br><br>
+
+<center><h1>Similarity Detector via File</h1></center>
+<form action = "{{url_for('home')}}" method = "post" enctype="multipart/form-data">
+  <label for="myfile">Select files:</label><br><br>
+  <input type="file" id="myfile" name="myfile1" accept=".txt,.docx"  required><br><br>
+  <input type="file" id="myfile2" name="myfile2" accept=".txt,.docx"   required><br><br>
+ <center> <input class="button" type="submit" value="Check Similarity"><br><br>
+  <h2>{{sim2}}</h2>  </center>
+</form>
+<br><br>
+
+<br><br><Br><bR><br><br><Br><bR>
+
+
+
+
+
+<hr>
+
+<center><h2> Developed by Barathkumar G</h2></center>
+
+
+
+</body>
+</html>
