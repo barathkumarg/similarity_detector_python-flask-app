@@ -54,7 +54,7 @@ Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 6.This web application in cloud: https://similaritydectecor12.herokuapp.com/    
 
-you can click and can use anywhere you wanted without python ide as it was published in cloud
+you can click and can use anywhere you wanted without python ide as it was published in cloud.
  
 
 
